@@ -1,0 +1,36 @@
+{
+    "widget":{
+            "name": "widget.name",
+            "description": "widget.description",
+            "short_description": "widget.short_description",
+            "code": "aisa_autoquote",
+            "secret_key": "aa6a953d640095c85b5d8bc89ae51951401f68493b5adee8b13d548b998be410",
+            "version": "1.5.0",
+            "interface_version": 2,
+            "init_once": false,
+            "locale":[ "ru" ],
+            "installation": true
+            },
+    "locations":[
+            "lcard-0", "cucard-0", "ccard-0", "comcard-0", "settings", "card_sdk",
+            "clist", "llist", "culist",  "tlist"
+            ],
+    "settings":{
+              "name":{
+                  "name": "settings.name",
+                  "type": "text",
+                  "required": true
+              },
+              "email":{
+                        "name": "settings.email",
+                        "type": "text",
+                        "required": true
+              },
+              "setblock":{
+                        "name": "settings.setblock",
+                        "type": "custom",
+                        "required": false
+              }
+
+    }
+}
